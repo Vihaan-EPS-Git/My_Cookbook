@@ -1,3 +1,5 @@
+        /* nav bar */
+
         nav {
             background-color: #333;
         }
@@ -22,13 +24,23 @@
 
         /* Hover effect */
         nav a:hover {
-            background-color: #575757;
+            background-color: #6d8571;
         }
 
         /* Active (current page) link */
         nav a.active {
-            background-color: #04AA6D;
+            background-color: #1d7b58;
             /* a green highlight */
             font-weight: bold;
             /* make it stand out */
+        }
+
+        .card {
+            background-color: rgb(139, 223, 171);
+            border-style: solid;
+            border-color: rgb(43, 67, 42);
+            margin: 20px;
+            /* Distance of each box */
+            padding: 15px;
+            /* Distance of contents of box from box border */
         }
